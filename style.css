@@ -1,0 +1,170 @@
+/* Set background color */
+body {
+  background-color: #111111;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444444;
+}
+
+/* Style the header */
+header {
+  background-color: #4d2525;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #25274d;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  margin: 20px 0;
+}
+
+section a {
+  color: #25274d;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Style the contact form */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #25274d;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+form input[type="submit"] {
+  background-color: #25274d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #25274d;
+}
+
+/* Style the footer */
+footer {
+  background-color: #25274d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Additional styles for a colorful and interesting look */
+
+body {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #25274d;
+}
+
+nav a {
+  background-color: #fff;
+  color: #25274d;
+}
+
+nav a:hover {
+  background-color: #25274d;
+  color: #fff;
+}
+
+section {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section h2 {
+  color: #25274d;
+}
+
+section a {
+  color: #25274d;
+  transition: all 0.3s ease;
+}
+
+section a:hover {
+  color: #e63846
+}
